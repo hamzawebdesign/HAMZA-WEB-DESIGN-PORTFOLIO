@@ -82,14 +82,15 @@ contactForm.addEventListener("submit", async (event) => {
         
         await emailjs.send(
             "service_opxs26p",
-            "template_wnkfegb",
-        {
-            name: name,
-            email: email,
-            business: business || "Not specified",
-            message: message
-        }
-);
+            "template_vowpqhr",
+            {
+                name: name,
+                email: email,
+                business_type: business || "Not specified",
+                message: message,
+                time: new Date().toLocaleString()
+            }
+        );
 
         formStatus.textContent =
             "Email sent successfully. Opening WhatsApp...";
