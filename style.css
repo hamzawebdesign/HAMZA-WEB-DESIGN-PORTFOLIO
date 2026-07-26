@@ -1560,3 +1560,71 @@ body.dark-mode .footer {
     }
 
 }
+
+
+
+
+@media (max-width: 768px) {
+
+    html{
+        font-size:12px;
+    }
+
+    .container{
+        width:88%;
+    }
+
+    section{
+        padding:45px 0;
+    }
+
+    h1{
+        font-size:1.8rem;
+    }
+
+    h2{
+        font-size:1.5rem;
+    }
+
+    h3{
+        font-size:1.1rem;
+    }
+
+    p,
+    li{
+        font-size:0.85rem;
+    }
+
+    .btn,
+    button{
+        font-size:0.8rem;
+        padding:10px 18px;
+    }
+
+    .card,
+    .service-card,
+    .portfolio-card,
+    .testimonial-card,
+    .faq-item,
+    .contact-card{
+        padding:16px;
+    }
+
+    .hero{
+        padding-top:90px;
+        padding-bottom:50px;
+    }
+
+    .hero-image img{
+        width:75%;
+        max-width:280px;
+    }
+
+    .logo{
+        font-size:1.3rem;
+    }
+
+    .nav-links a{
+        font-size:0.9rem;
+    }
+}
